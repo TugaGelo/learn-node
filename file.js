@@ -1,22 +1,22 @@
 const fs = require("fs");
 
 // reading files
-// fs.readFile("docs/blog1.txt", (err, data) => {
-//     if (err) {
-//         console.log(err);
-//     }
-//     console.log(data.toString());
-// });
+fs.readFile("docs/blog1.txt", (err, data) => {
+    if (err) {
+        console.log(err);
+    }
+    console.log(data.toString());
+});
 
-// console.log("reading file...");
+console.log("reading file...");
 
 // // writing files
-// fs.writeFile("docs/blog2.txt", "This is a newwer blog", (err) => {
-//     if (err) {
-//         console.log(err);
-//     }
-//     console.log("written to file");
-// });
+fs.writeFile("docs/blog2.txt", "This is a newwer blog", (err) => {
+    if (err) {
+        console.log(err);
+    }
+    console.log("written to file");
+});
 
 // directory
 if (!fs.existsSync("./assets")) {
