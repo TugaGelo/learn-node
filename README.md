@@ -16,7 +16,7 @@ A simple blog website built with Node.js documenting my learning journey.
 ## Screenshots
 | Homepage | Blog Post | About Page | Create Post |
 |----------|-----------|------------|-------------|
-| ![Homepage](screenshots/home.png) | ![Blog Post](screenshots/post.png) | ![About](screenshots/about.png) | ![Create](screenshots/create.png) |
+| ![Homepage](screenshots/home.png) | ![Blog Post](screenshots/blog.png) | ![About](screenshots/about.png) | ![Create](screenshots/create.png) |
 
 ## Tech Stack
 - **Backend**: Node.js, Express
